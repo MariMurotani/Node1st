@@ -37,3 +37,14 @@ div.box
 @for $i from 10 through 11
   .fs#{$i}
     font-size: #{$i} px
+
+//  継承できる
+.box
+  margin-top: 15px
+  padding: 10px
+  background-color: #ccc
+  p
+    line-height: 1.3
+.contentsBox
+  @extend .box
+  background-color: #eee

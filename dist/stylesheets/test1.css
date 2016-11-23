@@ -17,7 +17,7 @@
 }
 
 /* line 18, ../../src/sass/test1.sass */
-div.box {
+div.box, div.contentsBox {
   background-color: blue;
   border-width: 2px;
   border-style: solid;
@@ -42,4 +42,20 @@ div.box {
 /* line 38, ../../src/sass/test1.sass */
 .fs11 {
   font-size: 11 px;
+}
+
+/* line 42, ../../src/sass/test1.sass */
+.box, .contentsBox {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #ccc;
+}
+/* line 46, ../../src/sass/test1.sass */
+.box p, .contentsBox p {
+  line-height: 1.3;
+}
+
+/* line 48, ../../src/sass/test1.sass */
+.contentsBox {
+  background-color: #eee;
 }

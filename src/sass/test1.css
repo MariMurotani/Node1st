@@ -8,7 +8,7 @@
 .article p {
   color: #333; }
 
-div.box {
+div.box, div.contentsBox {
   background-color: blue;
   border-width: 2px;
   border-style: solid;
@@ -25,5 +25,15 @@ div.box {
 
 .fs11 {
   font-size: 11 px; }
+
+.box, .contentsBox {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #ccc; }
+  .box p, .contentsBox p {
+    line-height: 1.3; }
+
+.contentsBox {
+  background-color: #eee; }
 
 /*# sourceMappingURL=test1.css.map */
