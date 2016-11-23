@@ -1,0 +1,29 @@
+.container {
+  background-color: red; }
+  .container .span1 {
+    background-color: pink; }
+    .container .span1 .span2 {
+      background-color: orange; }
+
+.article p {
+  color: #333; }
+
+div.box {
+  background-color: blue;
+  border-width: 2px;
+  border-style: solid;
+  border-colors: #8080ff #8080ff black black; }
+
+#header {
+  border-bottom: 1px solid #999; }
+  #header #gnav {
+    overflow: hidden;
+    border-bottom: 1px solid #666; }
+
+.fs10 {
+  font-size: 10 px; }
+
+.fs11 {
+  font-size: 11 px; }
+
+/*# sourceMappingURL=test1.css.map */

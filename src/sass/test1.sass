@@ -1,0 +1,39 @@
+//入れ子のテスト
+.container
+  background-color: red
+  .span1
+    background-color: pink
+    .span2
+      background-color: orange
+
+//変数のテスト
+$article_font_color: #333
+.article p
+  color: $article_font_color
+
+//関数のテスト
+$base: blue
+$highlight: lighten($base, 25)
+$shadow: darken($base, 50)
+div.box
+  background-color: $base
+  border:
+    width: 2px
+    style: solid
+    colors: $highlight $highlight $shadow $shadow
+
+// mixinが使える
+@mixin border($color:#666)
+  border-bottom: 1px solid $color
+
+#header
+  @include border(#999)
+
+  #gnav
+    overflow: hidden
+    @include border
+
+//  ループが使える
+@for $i from 10 through 11
+  .fs#{$i}
+    font-size: #{$i} px

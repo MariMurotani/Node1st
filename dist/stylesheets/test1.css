@@ -1,0 +1,45 @@
+/* line 2, ../../src/sass/test1.sass */
+.container {
+  background-color: red;
+}
+/* line 4, ../../src/sass/test1.sass */
+.container .span1 {
+  background-color: pink;
+}
+/* line 6, ../../src/sass/test1.sass */
+.container .span1 .span2 {
+  background-color: orange;
+}
+
+/* line 11, ../../src/sass/test1.sass */
+.article p {
+  color: #333;
+}
+
+/* line 18, ../../src/sass/test1.sass */
+div.box {
+  background-color: blue;
+  border-width: 2px;
+  border-style: solid;
+  border-colors: #8080ff #8080ff black black;
+}
+
+/* line 29, ../../src/sass/test1.sass */
+#header {
+  border-bottom: 1px solid #999;
+}
+/* line 32, ../../src/sass/test1.sass */
+#header #gnav {
+  overflow: hidden;
+  border-bottom: 1px solid #666;
+}
+
+/* line 38, ../../src/sass/test1.sass */
+.fs10 {
+  font-size: 10 px;
+}
+
+/* line 38, ../../src/sass/test1.sass */
+.fs11 {
+  font-size: 11 px;
+}
